@@ -1,3 +1,12 @@
+.social-links {
+  margin-top: 10px  !important;
+  margin-bottom: 0px  !important;
+  margin-right: 0px !important;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
 .subscribe_buttons {
   padding-top: 2px;
   padding-bottom: 2px;
@@ -13,10 +22,15 @@
   padding-bottom: 20px;
 }
 .sidebar_general {
-  background-color: #222222;
-  border-radius: 15px;
+  background-color: #d68123;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-bottom: 40px;
+}
+.sidebar_headline {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  margin-top: 0px;
 }
 .middle_container {
   background-color: #fff;
@@ -38,6 +52,20 @@
 }
 .navbar_footer {
   border-radius: 0px!important;
+}
+.footer_copyright {
+  padding-right: 40px;
+  padding-top: 10px;
+}
+.sidebar_col {
+  padding-top: 40px!important;
+  padding-left: 40px!important;
+  padding-right: 40px!important;
+}
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
 }
 body {
   padding-top: 70px;
