@@ -6,8 +6,11 @@
 <script src="/js/jssocials.min.js"></script>
 <script>
     $("#share").jsSocials({
-        shares: ["twitter", "facebook", "linkedin", "pinterest"],
+        shares: ["facebook", "linkedin", "pinterest"],
         url: "{{ .Params.permalink }}",
-        text: "{{ title .Title }}"
+        text: "{{ title .Title }}",
+        share: "twitter",
+        label: "Tweet",
+        via: "mattstratton"
     });
 </script>
