@@ -16,5 +16,4 @@ aliases = ["/##"]
 youtube = ""
 explicit = "no" # values are "yes" or "no"
 # media_override # if you have want to use a specific URL for the audio file
-website = '{{ $.Site.Params.homepage }}'
 +++
