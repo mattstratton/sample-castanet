@@ -14,6 +14,6 @@ sponsors = []
 episode_image = "/img/episode/default.jpg"
 title = "Back To School"
 youtube = ""
-podcast = "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode053.mp3"
+podcast_file = "arrested-devops-podcast-episode053.mp3"
 
 +++
