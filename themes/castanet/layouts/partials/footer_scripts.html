@@ -5,12 +5,7 @@
 <script src="/js/bootstrap3_player.js"></script>
 <script src="/js/jssocials.min.js"></script>
 <script>
-    $("#share").jsSocials({
-        shares: ["facebook", "linkedin", "pinterest"],
-        url: "{{ .Params.permalink }}",
-        text: "{{ title .Title }}",
-        share: "twitter",
-        label: "Tweet",
-        via: "mattstratton"
-    });
+$("#share").jsSocials({
+    shares: ["twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+});
 </script>
